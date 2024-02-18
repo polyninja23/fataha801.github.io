@@ -1,1 +1,83 @@
 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LEHI 41ST WARD CONFERENCE CALENDAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script>
+        // Function to get the current date and format it
+        function displayCurrentDate() {
+            var currentDate = new Date();
+            var options = { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' };
+            var formattedDate = currentDate.toLocaleDateString('en-US', options);
+
+            // Display the formatted date in the 'output' element
+            document.getElementById('output').textContent = formattedDate;
+        }
+    </script> 
+  </head>
+ <body onload="displayCurrentDate()">
+    <div class="container">
+      <div class="container my-5">
+          <h3>The Church of Jesus Christ of Latter-day Saints</h3>
+          <h4>Orem Utah 2nd Stake</h4>
+          <p><strong>Lehi 41st Ward (Tongan)</strong></p> 
+          <p>CONFERENCE SCHEDULE WEEK</p>
+      <ul>
+          <li>MONDAY</li>
+            <ul>
+              <li>
+                  Family Home Evening - Study Come Follow Me with your family (2 Nephi 6-10) tonight and throughout the week. “O How Great the Plan of Our God”
+              </li>
+            </ul>
+          <li>TUESDAY</li>
+            <ul>
+              <li>
+                8:30pm session: Mount Timpanogos Temple Night. Please make an appointment with the Lord at the temple. Love to have our ward family attend.
+              </li>
+            </ul>
+          <li>WEDENSDAY</li>
+            <ul>
+              <li>
+                6:30pm: Youth and Adults to watch “The Chosen - Season 4, Episodes 4-6”. Larry H. Miller Megaplex Movie Theater #2.  
+              </li>
+            </ul>
+          <li>THURSDAY</li>
+            <ul>
+              <li>7:00am–9:30am: Utah Food Bank Service Project. Volunteers meet at 6:30am. Location: Sarotoga Springs 12th Ward Parking Lot - 1149 N 300 W, Lehi, UT 84043</li>
+              <li>7:00pm-8:30pm: Mutual Night with Stake - Combined YM/YW</li>
+            </ul>
+          <li>FRIDAY</li>
+            <ul>
+              <li>6:00pm–8:50pm: Lehi Legacy Family Swim Night at Primary will organize games at the pool for primary kids. The Ward Budget will cover entrance fees for families without membership. Pizza and drinks will be provided.
+              </li>
+            </ul>
+          <li>SATURDAY</li>
+            <ul>
+              <li>10:30am: Tubing Activity - Gateway Parks, Spanish Fork. Location: 2300 E Powerhouse Rd. Spanish Fork, UT 84660</li>
+              <li>4:00pm: Mount Timpanogos Temple - 41 sealings (5 couples or 10 individuals) with Patriarch Paongo</li>
+            </ul>
+          <li>SUNDAY</li>
+            <ul>
+              <li>7:00am: Ward Council Training with Stake Leaders at AF 2nd Ward Building. Location: Lehi 41st Ward Building - 680 N 350 W, American Fork, UT 84003.</li>
+              <li>12:00pm: Ward Conference (Sacrament Hour)</li>
+              <li>1:00pm: Relief Society and Elders Quorum/Youth Combine (2nd Hour)</li>
+              <li>2:30pm: Bishopric/Stake Presidency Meeting</li>
+              <li>Dessert boxes served for Stake Leaders to take home after meetings.</li>
+            </ul>
+      </ul>
+      
+       <footer>
+         <small>2024 | Lehi 41st Ward
+         Disclaimer: This is not an official Church-sponsored website or product. Contents are not sponsored or endorsed by or offically represent the Church of Jesus Christ of Latter-day Saints.</small>
+       </footer> 
+        
+       </div>
+    </div>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
